@@ -1,0 +1,203 @@
+@media screen and (max-width:475px) {
+    .headwords:nth-child(1){
+        transform: translate(100px,26px);
+        display: none;
+    }
+    
+    .headwords:nth-child(2){
+        transform: translate(250px,9px);
+        display: none;
+    }
+    
+    .headwords:nth-child(3){
+        transform: translate(400px,-7px);
+        display: none;
+    }
+    
+    .headwords:nth-child(4){
+        transform: translate(700px,-24px);
+        display: none;
+    }
+    
+    .headwords:nth-child(5){
+        transform: translate(30px,26px);
+        color: rgb(29,161,242);
+        font-size: 10px;
+    }
+    
+    .headwords:nth-child(6){
+        transform: translate(200px,-6px);
+    }
+    
+    .headwords:nth-child(7){
+        transform: translate(280px,-59px);
+        
+    }
+    .printivo{
+        height: 100px;
+        width: 100%;
+        background-color: rgb(236,232,217);
+        top: 64px;
+        left: 0px;
+        position: sticky;
+        position: absolute;
+        
+    }
+    .printivologo{
+        transform: translate(10px,30px);
+    }
+    
+    .printword{
+        cursor: pointer;
+        color: rgb(75,99,130);
+        font-weight: 600;
+        font-size: 15px;
+        padding-left: 580px;
+    }
+    .printword:nth-child(3){
+        transform: translate(75px,-17px);
+        display: none;
+    }
+    .printword:nth-child(4){
+        transform: translate(200px,-35px);
+        display: none;
+    }
+    .printword:nth-child(5){
+        transform: translate(350px,-50px);
+        display: none;
+    }
+    .printword:nth-child(6){
+        transform: translate(-340px,-30px);
+        color: rgb(215,127,129);
+        font-size: 10px;
+    }
+    .printword:nth-child(7){
+        transform: translate(580px,-82px);
+        display: none;
+    }
+    .printword:nth-child(8){
+        transform: translate(-260px,-60px);
+    }
+
+    .hand{
+        top: 100px;
+        right: -2px;
+        position: absolute;
+        display: none;
+    }
+    
+    .containerone{
+        display: grid;
+        grid-template-columns: 1fr;
+        position: relative;
+        top: 603px;
+        
+        padding-top: 100px;
+        padding-left: 10px;
+        
+    }
+
+    .product{
+        position: absolute;
+        top: 15px;
+        left:95px;
+        font-size: 35px;
+        font-family: 'DM Serif Display', serif;
+        font-weight: 800px;
+         color: rgb(75,99,130);
+    }
+    
+    .see{
+        color: rgb(215,127,129);
+        position: absolute;
+        top: 35px;
+        left:80%;
+        font-size: 20px;
+    }
+    .cont{
+        position: relative;
+        top: 20px;
+        width: 330px;
+        height: 500px;
+        
+        cursor: pointer;
+    }
+    .busi{
+        position: absolute;
+        height: 250px;
+        width: 330px;
+        
+    }
+    .wo{
+        position: relative;
+        top: 250px;
+        left: 10px;
+        color: rgb(43,61,73);
+        font-size: small;
+    }
+    .woo{
+        position: relative;
+        top: 260px;
+        left: 10px;
+        color: rgb(75,99,130);
+        font-size: 12px;
+        font-weight: 400px;
+    }
+    
+    .wooo{
+        position: relative;
+        top: 260px;
+        left: 10px;
+        color: rgb(56,74,98);
+        font-size: large;
+    }
+    
+    .woooo{
+        position: relative;
+        top:225px;
+        left: 70px;
+        color: rgb(75,99,130);
+        font-size: 13px;
+    }
+    
+    .but{
+        height: 50px;
+        width: 220px;
+        position: relative;
+        top: 240px;
+        left: 10px;
+        border-radius: 5px;
+        background-color: rgb(215,127,129);
+        font-size: small;
+        border: none;
+    }
+
+    .ww{
+        position: relative;
+       top:223px;
+       left: 80px;
+       color: rgb(75,99,130);
+       font-size: 17px;
+   
+   }
+
+   .containerone{
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+    top: 603px;
+    gap: 30px;
+    padding: 100px;
+    
+}
+
+.cont{
+    position: relative;
+    top: 20px;
+    width: 290px;
+    height: 500px;
+    
+    cursor: pointer;
+}
+
+}
